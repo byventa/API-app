@@ -2,8 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.4.
 
-##GHPages
-Github Pages deployment url : https://byventa.github.io/API-app/
+GHPages deployment url : https://byventa.github.io/API-app/
 
 ## Development server
 
