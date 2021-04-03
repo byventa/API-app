@@ -1,0 +1,12 @@
+$breakpoint-tablet: 768px;
+
+@media (min-width: $breakpoint-tablet) {
+
+.content{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  place-items: center;
+  background-color: #dddddd;
+  padding: 5em;
+}
+}

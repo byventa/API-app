@@ -1,0 +1,5 @@
+<div *ngIf="mapCoords.lat && mapCoords.lng">
+  <google-map [center]="mapCoords" [zoom]="zoom" style="width:100%">
+    <map-marker [position]="mapCoords"></map-marker>
+  </google-map>
+</div>

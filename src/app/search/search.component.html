@@ -1,0 +1,13 @@
+<form class="example-form">
+  <mat-form-field class="example-full-width">
+    <mat-label>Lokalizacja</mat-label>
+    <input type="text" placeholder="Wpisz lokalizacje" aria-label="Lokalizacja" matInput [formControl]="loc"
+      [matAutocomplete]="auto">
+    <mat-autocomplete #auto="matAutocomplete">
+      <mat-option *ngFor="let location of locations"
+        (click)="getCoords(location.boundingbox[0],location.boundingbox[2])" [value]="location.display_name">
+        {{location.display_name}}
+      </mat-option>
+    </mat-autocomplete>
+  </mat-form-field>
+</form>

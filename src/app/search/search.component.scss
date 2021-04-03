@@ -1,0 +1,10 @@
+$breakpoint-tablet: 768px;
+
+body{
+  padding: 1em;
+}
+@media (min-width: $breakpoint-tablet) {
+  mat-form-field{
+    width: 100%;
+  }
+}
